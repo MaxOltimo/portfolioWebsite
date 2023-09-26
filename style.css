@@ -1,3 +1,9 @@
+:root {
+
+    --usf-light-green: rgb(166,202,84);
+}
+
+
 h2 {
 
     color: darkgreen; 
@@ -42,11 +48,48 @@ section, footer {
     text-align: center;
 }
 
+.about > p {
+    margin: auto;
+    max-width: 600px;
+
+}
+
 .about > h2 {
-    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about > h4 {
+    margin-top: 20px;
+}
+
+.project-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 
 }
 
-.about > a {
-    padding-bottom: 30px;
+.project {
+    display: flex;
+    align-items: center;
 }
+
+.project > article > p {
+    width: 400px;
+}
+
+.project > img{
+    width: 100px;
+    margin: 16px;
+    border-radius: 50%;
+    border: solid 5px var(--usf-light-green);
+
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+}
+
